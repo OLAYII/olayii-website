@@ -1,0 +1,223 @@
+
+<!DOCTYPE html>
+<html lang="en-GB">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="description" content="OLAYII IT SOLUTIONS LTD offers IT consultancy, IT support, cybersecurity guidance and cloud and data hosting solutions.">
+  <title>OLAYII IT SOLUTIONS LTD | IT Solutions</title>
+  <style>
+    :root {
+      --navy: #0b1530;
+      --blue: #3978f6;
+      --light: #f4f7fc;
+      --text: #26334a;
+      --muted: #64748b;
+    }
+    * { box-sizing: border-box; }
+    html { scroll-behavior: smooth; }
+    body {
+      margin: 0;
+      font-family: Arial, Helvetica, sans-serif;
+      color: var(--text);
+      line-height: 1.7;
+    }
+    a { color: inherit; }
+    .container { width: min(1100px, 90%); margin: auto; }
+    header {
+      background: var(--navy);
+      color: white;
+      padding: 20px 0;
+    }
+    nav {
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      gap: 20px;
+      flex-wrap: wrap;
+    }
+    .brand { font-weight: 800; font-size: 1.15rem; }
+    .brand span { color: #76a4ff; }
+    nav a { text-decoration: none; margin-left: 20px; }
+    .hero {
+      background: linear-gradient(135deg, #0b1530, #173e7c);
+      color: white;
+      padding: 100px 0;
+    }
+    .hero h1 {
+      font-size: clamp(2.3rem, 5vw, 4rem);
+      line-height: 1.15;
+      max-width: 760px;
+      margin: 15px 0;
+    }
+    .hero p { color: #d6e2f8; max-width: 650px; font-size: 1.1rem; }
+    .eyebrow {
+      color: #8db4ff;
+      text-transform: uppercase;
+      letter-spacing: 2px;
+      font-weight: bold;
+      font-size: .8rem;
+    }
+    .button {
+      display: inline-block;
+      background: var(--blue);
+      color: white;
+      padding: 12px 22px;
+      border-radius: 7px;
+      text-decoration: none;
+      font-weight: bold;
+      margin-top: 15px;
+    }
+    section { padding: 75px 0; }
+    .section-heading { text-align: center; margin-bottom: 35px; }
+    .section-heading h2 { color: var(--navy); font-size: 2rem; margin-bottom: 8px; }
+    .section-heading p { color: var(--muted); }
+    .services {
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(220px, 1fr));
+      gap: 22px;
+    }
+    .service {
+      padding: 25px;
+      border: 1px solid #e2e8f0;
+      border-radius: 12px;
+      background: white;
+      box-shadow: 0 8px 24px rgba(15, 35, 75, .05);
+    }
+    .service .icon { font-size: 2rem; }
+    .service h3 { color: var(--navy); margin-bottom: 8px; }
+    .service p { color: var(--muted); margin-bottom: 0; }
+    .about { background: var(--light); }
+    .about-content { max-width: 760px; margin: auto; text-align: center; }
+    .contact {
+      background: var(--navy);
+      color: white;
+      text-align: center;
+    }
+    .contact h2 { font-size: 2rem; }
+    .contact p { color: #d6e2f8; }
+    .contact .button { background: white; color: var(--navy); }
+    footer {
+      background: #070e20;
+      color: #cbd5e1;
+      padding: 24px 0;
+      text-align: center;
+      font-size: .9rem;
+    }
+    footer a { color: #cbd5e1; }
+    @media (max-width: 600px) {
+      .hero { padding: 70px 0; }
+      nav { align-items: flex-start; }
+      nav a { margin: 0 14px 0 0; }
+      .nav-links { display: flex; gap: 12px; flex-wrap: wrap; }
+      section { padding: 55px 0; }
+    }
+  </style>
+</head>
+<body>
+  <header>
+    <nav class="container">
+      <div class="brand">OLAYII <span>IT SOLUTIONS</span></div>
+      <div class="nav-links">
+        <a href="#services">Services</a>
+        <a href="#about">About</a>
+        <a href="#contact">Contact</a>
+      </div>
+    </nav>
+  </header>
+
+  <main>
+    <section class="hero">
+      <div class="container">
+        <div class="eyebrow">Technology made practical</div>
+        <h1>Helping your business work smarter and more securely.</h1>
+        <p>
+          Practical IT consultancy, technical support, cybersecurity
+          guidance and cloud solutions to help businesses navigate
+          technology with confidence.
+        </p>
+        <a class="button" href="#contact">Let's talk about your IT</a>
+      </div>
+    </section>
+
+    <section id="services">
+      <div class="container">
+        <div class="section-heading">
+          <h2>Our Services</h2>
+          <p>Technology support focused on your business needs.</p>
+        </div>
+        <div class="services">
+          <article class="service">
+            <div class="icon" aria-hidden="true">💡</div>
+            <h3>IT Consultancy</h3>
+            <p>Practical technology advice, planning and recommendations
+              to help your organisation make informed IT decisions.</p>
+          </article>
+          <article class="service">
+            <div class="icon" aria-hidden="true">🖥️</div>
+            <h3>IT Support</h3>
+            <p>Technical troubleshooting and support to help address
+              everyday IT challenges and keep work moving.</p>
+          </article>
+          <article class="service">
+            <div class="icon" aria-hidden="true">🔒</div>
+            <h3>Cybersecurity</h3>
+            <p>Security guidance and risk-awareness support to help
+              businesses strengthen their approach to protecting systems
+              and information.</p>
+          </article>
+          <article class="service">
+            <div class="icon" aria-hidden="true">☁️</div>
+            <h3>Cloud &amp; Data Hosting</h3>
+            <p>Guidance on cloud services, hosting options and data
+              solutions suited to your organisation's requirements.</p>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <section id="about" class="about">
+      <div class="container about-content">
+        <div class="section-heading">
+          <h2>Technology with purpose</h2>
+        </div>
+        <p>
+          OLAYII IT SOLUTIONS LTD aims to make technology easier to
+          understand and use. We focus on practical solutions, clear
+          communication and helping businesses identify technology
+          options that fit their needs.
+        </p>
+        <p>
+          Whether you are reviewing your IT setup, exploring cloud
+          options or looking for technical guidance, start a conversation
+          with us.
+        </p>
+      </div>
+    </section>
+
+    <section id="contact" class="contact">
+      <div class="container">
+        <div class="eyebrow">Get in touch</div>
+        <h2>Let's discuss your IT needs.</h2>
+        <p>Contact us to start a conversation about your business.</p>
+        <a class="button" href="mailto:info@olayii.co.uk">
+          info@olayii.co.uk
+        </a>
+      </div>
+    </section>
+  </main>
+
+  <footer>
+    <div class="container">
+      <p>&copy; <span id="year">2026</span> OLAYII IT SOLUTIONS LTD.
+        All rights reserved.</p>
+      <p>Registered in England and Wales.</p>
+      <p><a href="mailto:info@olayii.co.uk">info@olayii.co.uk</a>
+        · <a href="https://olayii.co.uk">olayii.co.uk</a></p>
+    </div>
+  </footer>
+  <script>
+    document.getElementById("year").textContent = new Date().getFullYear();
+  </script>
+</body>
+</html>
